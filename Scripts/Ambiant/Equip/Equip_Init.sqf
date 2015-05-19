@@ -1,37 +1,9 @@
-removeAllWeapons this;
-removeAllItems this;
-removeAllAssignedItems this;
-removeUniform this;
-removeVest this;
-removeBackpack this;
-removeHeadgear this;
-removeGoggles this;
+_SL01 = Player_Unit_SL_01;
+_SL02 = Player_Unit_SL_02;
+_SL03 = Player_Unit_SL_03;
+_SL04 = Player_Unit_SL_04;
 
-this forceAddUniform "U_B_CombatUniform_mcam";
-this addItemToUniform "FirstAidKit";
-this addItemToUniform "30Rnd_65x39_caseless_mag";
-for "_i" from 1 to 2 do {this addItemToUniform "11Rnd_45ACP_Mag";};
-this addItemToUniform "Laserbatteries";
-this addVest "V_PlateCarrierGL_mtp";
-for "_i" from 1 to 6 do {this addItemToVest "30Rnd_65x39_caseless_mag_Tracer";};
-this addItemToVest "HandGrenade";
-for "_i" from 1 to 3 do {this addItemToVest "SmokeShellGreen";};
-for "_i" from 1 to 3 do {this addItemToVest "SmokeShellBlue";};
-for "_i" from 1 to 3 do {this addItemToVest "Chemlight_green";};
-for "_i" from 1 to 3 do {this addItemToVest "Chemlight_blue";};
-for "_i" from 1 to 2 do {this addItemToVest "B_IR_Grenade";};
-this addItemToVest "11Rnd_45ACP_Mag";
-this addHeadgear "H_MilCap_mcamo";
-this addGoggles "G_Tactical_Black";
-this addWeapon "arifle_MX_F";
-this addPrimaryWeaponItem "acc_pointer_IR";
-this addPrimaryWeaponItem "optic_Hamr";
-this addPrimaryWeaponItem "bipod_01_F_snd";
-this addWeapon "hgun_Pistol_heavy_01_F";
-this addHandgunItem "optic_MRD";
-this addWeapon "Laserdesignator";
-this linkItem "ItemMap";
-this linkItem "ItemCompass";
-this linkItem "ItemWatch";
-this linkItem "ItemRadio";
-this linkItem "ItemGPS";
+
+
+null = [_SL01,_SL02,_SL03,_SL04] execVM "Scripts\Ambiant\Equip\Squad_Leader.sqf";
+//call compile preprocessFileLineNumbers "Scripts\Ambiant\Equip\Squad_Leader.sqf";
