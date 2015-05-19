@@ -16,11 +16,11 @@
     </Key>
 
  	<Key ID="STR_AD_mp_mission_01_missionname">
-        <Original>Regulars Patrols</Original>
-        <English>Regulars Patrols</English>
-        <French>Patrouilles habituelles</French>
-        <German>Рegelmäßige Patrouillen</German>
-        <Russian>Регулярные патрули</Russian>
+        <Original>Foreign Operations</Original>
+        <English>Foreign Operations</English>
+        <French>Opérations extérieures</French>
+        <German>Auslandsgeschäft</German>
+        <Russian>зарубежные операции</Russian>
     </Key>
 
  	<Key ID="STR_AD_mp_mission_01_overview">
