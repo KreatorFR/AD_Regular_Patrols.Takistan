@@ -18,17 +18,12 @@ overviewPicture = "Data\img\preview.jpg";
 loadScreen = "Data\img\loadscreen.jpg";
 respawn = 3;
 respawnDelay = 30;
-#include "=BTC=_revive\=BTC=_respawn.h"
+#include "Scripts\Ambiant\=BTC=_revive\=BTC=_respawn.h"
 respawnVehicleDelay = 0;
 respawnTemplates[] = {"Revive", "MenuPosition"/*, "MenuInventory"*/};
 respawnOnStart = -1;
 respawnDialog = 1;
 disabledAI = 1;
-
-class CfgFunctions
-{
-    #include "Scripts\Ambiant\SHK_cruise\cfgfunctions.hpp"
-};
 
 class Header
 {
