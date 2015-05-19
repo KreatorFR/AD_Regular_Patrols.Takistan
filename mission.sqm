@@ -2427,7 +2427,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=8;
+		items=18;
 		class Item0
 		{
 			position[]={5687.7896,83.002373,11154.3};
@@ -2490,6 +2490,66 @@ class Mission
 			name="respawn_west_1";
 			type="Empty";
 			angle=3.5649722;
+		};
+		class Item8
+		{
+			position[]={5276.6182,143.98514,6134.519};
+			name="ob1";
+			type="Empty";
+		};
+		class Item9
+		{
+			position[]={1531.2571,234.35359,5732.0801};
+			name="ob2";
+			type="Empty";
+		};
+		class Item10
+		{
+			position[]={1842.4751,145.87,11972.558};
+			name="ob3";
+			type="Empty";
+		};
+		class Item11
+		{
+			position[]={8028.6987,614.7948,6172.5874};
+			name="ob4";
+			type="Empty";
+		};
+		class Item12
+		{
+			position[]={8023.2422,296.04001,1775.679};
+			name="ob5";
+			type="Empty";
+		};
+		class Item13
+		{
+			position[]={2059.8074,363.38248,340.65323};
+			name="ob6";
+			type="Empty";
+		};
+		class Item14
+		{
+			position[]={12292.711,151.32747,10362.453};
+			name="ob7";
+			type="Empty";
+		};
+		class Item15
+		{
+			position[]={8489.6572,232.52702,11147.545};
+			name="ob8";
+			type="Empty";
+		};
+		class Item16
+		{
+			position[]={2002.1902,276.48508,7667.6064};
+			name="ob9";
+			type="Empty";
+		};
+		class Item17
+		{
+			position[]={3676.4058,228.92561,4251.8164};
+			name="ob10";
+			type="Empty";
 		};
 	};
 };
