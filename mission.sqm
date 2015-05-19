@@ -1228,7 +1228,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BarGate_F";
 			skill=0.99748379;
-			init="Null = this execVM ""bargate.sqf"";";
+			init="Null = this execVM ""Scripts\Ambiant\bargate.sqf"";";
 		};
 		class Item16
 		{
