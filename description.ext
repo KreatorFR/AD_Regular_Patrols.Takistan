@@ -24,6 +24,11 @@ respawnOnStart = -1;
 respawnDialog = 1;
 disabledAI = 1;
 
+class CfgFunctions
+{
+    #include "Scripts\Ambiant\SHK_cruise\cfgfunctions.hpp"
+};
+
 class Header
 {
 	gameType = COOP;

@@ -14,4 +14,5 @@
 // Call some miscellaneous scripts :
 // Call some ambience scripts :
 call compile preprocessFileLineNumbers "Scripts\Ambiant\ShoterAnimation\init.sqf";
+call compile preprocessFile "Scripts\Ambiant\SHK_cruise\fn_cruiseSpawn.sqf";
 [] execVM "initIntro.sqf";
