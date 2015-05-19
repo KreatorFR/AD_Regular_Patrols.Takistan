@@ -20,15 +20,15 @@
         <English>Foreign Operations</English>
         <French>Opérations extérieures</French>
         <German>Auslandsgeschäft</German>
-        <Russian>зарубежные операции</Russian>
+        <Russian>Зарубежные Операции</Russian>
     </Key>
 
  	<Key ID="STR_AD_mp_mission_01_overview">
-        <Original>Test Current EN Desc.</Original>
-        <English>Test Current EN Desc.</English>
-        <French>Test Current FR Desc.</French>
-        <German>Test Current DE Desc.</German>
-        <Russian>проверить текущее описание</Russian>
+        <Original>Foreign Operations - Takistan - 32 Slots</Original>
+        <English>Foreign Operations - Takistan - 32 Slots</English>
+        <French>Opérations extérieures - Takistan - 32 Slots</French>
+        <German>Auslandsgeschäft - Takistan - 32 Slots</German>
+        <Russian>Зарубежные Операции - Такистан - 32 Слотс</Russian>
     </Key>
 	</Container>
 
