@@ -14,3 +14,4 @@
 // Call some miscellaneous scripts :
 // Call some ambience scripts :
 call compile preprocessFileLineNumbers "Scripts\Ambiant\ShoterAnimation\init.sqf";
+[] execVM "initIntro.sqf";
