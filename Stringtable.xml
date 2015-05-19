@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="ArmADeus : Regular Patrols">
+<Author name="ArmADeus">
+<Project version="0.5 Beta Public Release">
+
+
+<Package name="AD | Regular Patrols"> 
+ 	<Container name="Mission Informations">
+
+ 	<Key ID="STR_AD_Author_Name">
+        <Original>ArmADeus Team</Original>
+        <English>ArmADeus Team</English>
+        <French>Clan ArmADeus</French>
+        <German></German>
+        <Russian></Russian>
+    </Key>
+
+ 	<Key ID="STR_AD_mp_mission_01_missionname">
+        <Original>Regulars Patrols</Original>
+        <English>Regulars Patrols</English>
+        <French>Patrouilles habituelles</French>
+        <German></German>
+        <Russian></Russian>
+    </Key>
+
+ 	<Key ID="STR_AD_mp_mission_01_overview">
+        <Original>Test Current EN Desc.</Original>
+        <English>Test Current EN Desc.</English>
+        <French>Test Current FR Desc.</French>
+        <German></German>
+        <Russian></Russian>
+    </Key>
+	</Container>
+</Package>
