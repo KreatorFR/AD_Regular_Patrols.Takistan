@@ -1,1 +1,1 @@
-call compile preprocessFileLineNumbers "ShoterAnimation\init.sqf";
+call compile preprocessFileLineNumbers "Scripts\Ambiant\ShoterAnimation\init.sqf";

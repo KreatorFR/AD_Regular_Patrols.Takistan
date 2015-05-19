@@ -2,7 +2,7 @@
 #define WAIT_FOR_INIT waituntil {!isnil "ShoterAnimation_InitCompleted"}
 
 
-#define PATH "ShoterAnimation\"
+#define PATH "Scripts\Ambiant\ShoterAnimation\"
 #define ANIM_PATH PATH + "animations\"
 #define COMPILE_FILE(file) compile preprocessFileLineNumbers (PATH + file)
 #define LOAD_ANIMATION(file) [_object, _parameters] call compile preprocessFileLineNumbers (ANIM_PATH + file + ".sqf")

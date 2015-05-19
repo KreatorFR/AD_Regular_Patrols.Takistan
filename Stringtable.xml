@@ -31,4 +31,65 @@
         <Russian>проверить текущее описание</Russian>
     </Key>
 	</Container>
+
+
+
+    <Container name="Soldiers Names"> <!--- In the lobby--->
+
+    <Key ID="STR_AD_mp_mission_01_Soldiers_TL_Name">
+        <Original>Team Leader</Original>
+        <English>Team Leader</English>
+        <French>Chef d'Équipe</French>
+        <German></German>
+        <Russian></Russian>
+    </Key>
+
+    <Key ID="STR_AD_mp_mission_01_Soldiers_SL_Name">
+        <Original>Squad Leader</Original>
+        <English>Squad Leader</English>
+        <French>Chef d'Escouade</French>
+        <German></German>
+        <Russian></Russian>
+    </Key>
+
+    <Key ID="STR_AD_mp_mission_01_Soldiers_HMG_Name">
+        <Original>Heavy Machine Gunner</Original>
+        <English>Heavy Machine Gunner</English>
+        <French>Mitrailleur Lourd</French>
+        <German></German>
+        <Russian></Russian>
+    </Key>
+
+    <Key ID="STR_AD_mp_mission_01_Soldiers_GL_Name">
+        <Original>Grenadier</Original>
+        <English>Grenadier</English>
+        <French>Grenadier</French>
+        <German></German>
+        <Russian></Russian>
+    </Key>
+
+    <Key ID="STR_AD_mp_mission_01_Soldiers_MEDIC_Name">
+        <Original>Medic</Original>
+        <English>Medic</English>
+        <French>Médecin</French>
+        <German></German>
+        <Russian></Russian>
+    </Key>
+
+    <Key ID="STR_AD_mp_mission_01_Soldiers_MARK_Name">
+        <Original>Marksman</Original>
+        <English>Marksman</English>
+        <French>Tireur d'Élite</French>
+        <German></German>
+        <Russian></Russian>
+    </Key>
+
+    <Key ID="STR_AD_mp_mission_01_Soldiers_I_Name">
+        <Original>Infantry</Original>
+        <English>Infantry</English>
+        <French>Infanterie</French>
+        <German></German>
+        <Russian></Russian>
+    </Key>
+    </Container>
 </Package>
