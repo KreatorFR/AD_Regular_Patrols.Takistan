@@ -43,7 +43,12 @@ class Mission
 		"A3_Structures_F_Mil_BagBunker",
 		"A3_Modules_F_Effects",
 		"A3_Modules_F_Multiplayer",
-		"A3_Modules_F_Intel"
+		"A3_Modules_F_Intel",
+		"A3_Structures_F_Items_Electronics",
+		"A3_Weapons_F_CSAT",
+		"a3_weapons_f",
+		"A3_Data_F_Curator_Intel",
+		"A3_Structures_F_EPB_Items_Military"
 	};
 	addOnsAuto[]=
 	{
@@ -87,6 +92,11 @@ class Mission
 		"A3_Structures_F_Civ_Camping",
 		"A3_Air_F_Beta_Heli_Attack_01",
 		"A3_Structures_F_Mil_BagBunker",
+		"A3_Structures_F_Items_Electronics",
+		"A3_Weapons_F_CSAT",
+		"a3_weapons_f",
+		"A3_Data_F_Curator_Intel",
+		"A3_Structures_F_EPB_Items_Military",
 		"aia_takistan_config"
 	};
 	randomSeed=3286887;
@@ -108,7 +118,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=31;
+		items=32;
 		class Item0
 		{
 			side="WEST";
@@ -697,30 +707,18 @@ class Mission
 			side="WEST";
 			class Vehicles
 			{
-				items=2;
+				items=1;
 				class Item0
 				{
-					position[]={5842.2695,82.786804,11219.027};
-					azimut=-490.9408;
+					position[]={5842.5981,82.651443,11212.873};
+					offsetY=0.5;
 					id=32;
 					side="WEST";
-					vehicle="B_Soldier_TL_F";
-					player="PLAYER COMMANDER";
-					leader=1;
-					rank="MAJOR";
-					skill=1;
-					description="@STR_AD_mp_mission_01_Soldiers_TL_Name";
-				};
-				class Item1
-				{
-					position[]={5843.4575,82.645729,11212.73};
-					azimut=29.1917;
-					id=33;
-					side="WEST";
 					vehicle="B_Soldier_F";
+					leader=1;
 					skill=0.60000002;
 					text="AD_UNIT_COLONEL";
-					init="removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;  this forceAddUniform ""U_Marshal"";  this addVest ""V_PlateCarrierGL_blk"";  this addHeadgear ""H_Beret_Colonel"";  this setFace ""WhiteHead_20"";  this setSpeaker ""Male03ENG"";";
+					init="removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;  this forceAddUniform ""U_Marshal"";  this addVest ""V_PlateCarrierGL_blk"";  this addHeadgear ""H_Beret_Colonel"";  this setFace ""WhiteHead_20"";  this setSpeaker ""Male03ENG""; [this,""SIT_AT_TABLE""] call BIS_fnc_ambientAnim;";
 					description="AD_UNIT_COLONEL";
 				};
 			};
@@ -735,7 +733,7 @@ class Mission
 				{
 					position[]={5828.4292,82.291801,11195.85};
 					azimut=-32.667702;
-					id=34;
+					id=33;
 					side="WEST";
 					vehicle="B_Soldier_SL_F";
 					player="PLAY CDG";
@@ -750,7 +748,7 @@ class Mission
 				{
 					position[]={5826.082,82.165276,11190.092};
 					azimut=-32.667702;
-					id=35;
+					id=34;
 					side="WEST";
 					vehicle="B_soldier_M_F";
 					player="PLAY CDG";
@@ -764,7 +762,7 @@ class Mission
 				{
 					position[]={5829.3643,82.139709,11189.902};
 					azimut=-32.667702;
-					id=36;
+					id=35;
 					side="WEST";
 					vehicle="B_Soldier_GL_F";
 					player="PLAY CDG";
@@ -778,7 +776,7 @@ class Mission
 				{
 					position[]={5832.5205,82.150787,11191.29};
 					azimut=-32.667702;
-					id=37;
+					id=36;
 					side="WEST";
 					vehicle="B_HeavyGunner_F";
 					player="PLAY CDG";
@@ -790,7 +788,7 @@ class Mission
 				{
 					position[]={5834.4697,82.209625,11194.15};
 					azimut=-32.667702;
-					id=38;
+					id=37;
 					side="WEST";
 					vehicle="B_Soldier_F";
 					player="PLAY CDG";
@@ -811,7 +809,7 @@ class Mission
 				{
 					position[]={5792.6147,82.644257,11200.438};
 					azimut=37.155998;
-					id=39;
+					id=38;
 					side="WEST";
 					vehicle="B_Soldier_SL_F";
 					player="PLAY CDG";
@@ -826,7 +824,7 @@ class Mission
 				{
 					position[]={5786.7075,82.675911,11199.974};
 					azimut=37.155998;
-					id=40;
+					id=39;
 					side="WEST";
 					vehicle="B_soldier_M_F";
 					player="PLAY CDG";
@@ -840,7 +838,7 @@ class Mission
 				{
 					position[]={5787.6509,82.617622,11196.817};
 					azimut=37.155998;
-					id=41;
+					id=40;
 					side="WEST";
 					vehicle="B_Soldier_GL_F";
 					player="PLAY CDG";
@@ -854,7 +852,7 @@ class Mission
 				{
 					position[]={5790.0337,82.555054,11194.336};
 					azimut=37.155998;
-					id=42;
+					id=41;
 					side="WEST";
 					vehicle="B_HeavyGunner_F";
 					player="PLAY CDG";
@@ -866,7 +864,7 @@ class Mission
 				{
 					position[]={5793.146,82.516838,11193.815};
 					azimut=37.155998;
-					id=43;
+					id=42;
 					side="WEST";
 					vehicle="B_Soldier_F";
 					player="PLAY CDG";
@@ -896,7 +894,7 @@ class Mission
 							typeName="Type";
 						};
 					};
-					id=44;
+					id=43;
 					side="LOGIC";
 					vehicle="ModuleChemlight_F";
 					leader=1;
@@ -924,7 +922,7 @@ class Mission
 							typeName="Type";
 						};
 					};
-					id=45;
+					id=44;
 					side="LOGIC";
 					vehicle="ModuleChemlight_F";
 					leader=1;
@@ -1000,7 +998,7 @@ class Mission
 							typeName="ForcedRespawn";
 						};
 					};
-					id=46;
+					id=45;
 					side="LOGIC";
 					vehicle="ModuleRespawnVehicle_F";
 					leader=1;
@@ -1048,7 +1046,7 @@ class Mission
 							typeName="Identity";
 						};
 					};
-					id=47;
+					id=46;
 					side="LOGIC";
 					vehicle="ModuleHQ_F";
 					leader=1;
@@ -1059,10 +1057,30 @@ class Mission
 				};
 			};
 		};
+		class Item31
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5841.5728,82.784767,11218.83};
+					azimut=29.1917;
+					id=47;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					description="AD_UNIT_COLONEL";
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
-		items=137;
+		items=141;
 		class Item0
 		{
 			position[]={5640.9126,83.050003,11107.687};
@@ -2127,6 +2145,7 @@ class Mission
 		class Item106
 		{
 			position[]={5842.188,82.671371,11213.769};
+			azimut=-0.63318443;
 			id=154;
 			side="EMPTY";
 			vehicle="Land_CampingTable_F";
@@ -2424,10 +2443,62 @@ class Mission
 			syncId=28;
 			synchronizations[]={28,0};
 		};
+		class Item137
+		{
+			position[]={5842.5317,82.67205,11213.844};
+			azimut=180;
+			offsetY=0.80000001;
+			id=185;
+			side="EMPTY";
+			vehicle="Land_Laptop_unfolded_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false;";
+			description="AD_UNIT_COLONEL";
+		};
+		class Item138
+		{
+			position[]={5842.0952,82.672905,11213.828};
+			azimut=300;
+			offsetY=0.80000001;
+			id=186;
+			side="EMPTY";
+			vehicle="Weapon_hgun_Pistol_heavy_02_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; ";
+			description="AD_UNIT_COLONEL";
+		};
+		class Item139
+		{
+			position[]={5841.7559,82.672981,11213.779};
+			azimut=300;
+			offsetY=0.81;
+			id=187;
+			side="EMPTY";
+			vehicle="Intel_File2_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false;";
+			description="AD_UNIT_COLONEL";
+		};
+		class Item140
+		{
+			position[]={5842.8716,82.671104,11213.826};
+			azimut=300;
+			offsetY=0.81;
+			id=188;
+			side="EMPTY";
+			vehicle="Land_Magazine_rifle_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false;";
+			description="AD_UNIT_COLONEL";
+		};
 	};
 	class Markers
 	{
-		items=18;
+		items=19;
 		class Item0
 		{
 			position[]={5687.7896,83.002373,11154.3};
@@ -2550,6 +2621,13 @@ class Mission
 			position[]={3676.4058,228.92561,4251.8164};
 			name="ob10";
 			type="Empty";
+		};
+		class Item18
+		{
+			position[]={5842.5645,82.652214,11212.905};
+			name="Colonel";
+			text="Colonel";
+			type="flag_NATO";
 		};
 	};
 };
