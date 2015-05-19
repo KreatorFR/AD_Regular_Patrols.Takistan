@@ -18,6 +18,7 @@ overviewPicture = "Data\img\preview.jpg";
 loadScreen = "Data\img\loadscreen.jpg";
 respawn = 3;
 respawnDelay = 30;
+#include "=BTC=_revive\=BTC=_respawn.h"
 respawnVehicleDelay = 0;
 respawnTemplates[] = {"Revive", "MenuPosition"/*, "MenuInventory"*/};
 respawnOnStart = -1;
