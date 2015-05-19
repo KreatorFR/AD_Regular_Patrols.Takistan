@@ -222,7 +222,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.99271905;
-					init="nic = [this, ""stand""] execVM ""ShoterAnimation\ShoterAnimation.sqf"";";
+					init="nic = [this, ""stand""] execVM ""Scripts\Ambiant\ShoterAnimation\ShoterAnimation.sqf"";";
 				};
 			};
 		};
@@ -242,7 +242,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.99748379;
-					init="nic = [this, ""talk""] execVM ""ShoterAnimation\ShoterAnimation.sqf"";";
+					init="nic = [this, ""talk""] execVM ""Scripts\Ambiant\ShoterAnimation\ShoterAnimation.sqf"";";
 				};
 			};
 		};
@@ -261,7 +261,7 @@ class Mission
 					vehicle="B_soldier_LAT_F";
 					leader=1;
 					skill=0.99271905;
-					init="nic = [this, ""stand""] execVM ""ShoterAnimation\ShoterAnimation.sqf"";";
+					init="nic = [this, ""stand""] execVM ""Scripts\Ambiant\ShoterAnimation\ShoterAnimation.sqf"";";
 				};
 			};
 		};
@@ -280,7 +280,7 @@ class Mission
 					vehicle="B_Soldier_F";
 					leader=1;
 					skill=0.99271905;
-					init="nic = [this, ""stand""] execVM ""ShoterAnimation\ShoterAnimation.sqf"";";
+					init="nic = [this, ""stand""] execVM ""Scripts\Ambiant\ShoterAnimation\ShoterAnimation.sqf"";";
 				};
 			};
 		};
@@ -339,7 +339,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=1;
-					init="nic = [this, ""repair_kneel1""] execVM ""ShoterAnimation\ShoterAnimation.sqf"";";
+					init="nic = [this, ""repair_kneel1""] execVM ""Scripts\Ambiant\ShoterAnimation\ShoterAnimation.sqf"";";
 				};
 			};
 		};
@@ -360,7 +360,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.59725511;
-					init="nic = [this, ""repair_kneel2""] execVM ""ShoterAnimation\ShoterAnimation.sqf"";";
+					init="nic = [this, ""repair_kneel2""] execVM ""Scripts\Ambiant\ShoterAnimation\ShoterAnimation.sqf"";";
 				};
 			};
 		};
@@ -381,7 +381,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.57819647;
-					init="nic = [this, ""repair_kneel1""] execVM ""ShoterAnimation\ShoterAnimation.sqf"";";
+					init="nic = [this, ""repair_kneel1""] execVM ""Scripts\Ambiant\ShoterAnimation\ShoterAnimation.sqf"";";
 				};
 			};
 		};
@@ -402,7 +402,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.62107849;
-					init="nic = [this, ""repair_prone""] execVM ""ShoterAnimation\ShoterAnimation.sqf"";";
+					init="nic = [this, ""repair_prone""] execVM ""Scripts\Ambiant\ShoterAnimation\ShoterAnimation.sqf"";";
 				};
 			};
 		};
@@ -440,7 +440,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.5;
-					init="nic = [this, ""stand""] execVM ""ShoterAnimation\ShoterAnimation.sqf"";";
+					init="nic = [this, ""stand""] execVM ""Scripts\Ambiant\ShoterAnimation\ShoterAnimation.sqf"";";
 				};
 			};
 		};
@@ -459,7 +459,7 @@ class Mission
 					vehicle="B_Soldier_F";
 					leader=1;
 					skill=0.40000001;
-					init="nic = [this, ""stand""] execVM ""ShoterAnimation\ShoterAnimation.sqf"";";
+					init="nic = [this, ""stand""] execVM ""Scripts\Ambiant\ShoterAnimation\ShoterAnimation.sqf"";";
 				};
 			};
 		};
@@ -478,7 +478,7 @@ class Mission
 					vehicle="B_Soldier_F";
 					leader=1;
 					skill=0.40000001;
-					init="nic = [this, ""talk""] execVM ""ShoterAnimation\ShoterAnimation.sqf"";";
+					init="nic = [this, ""talk""] execVM ""Scripts\Ambiant\ShoterAnimation\ShoterAnimation.sqf"";";
 				};
 			};
 		};
@@ -498,7 +498,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.5;
-					init="nic = [this, ""stand""] execVM ""ShoterAnimation\ShoterAnimation.sqf"";";
+					init="nic = [this, ""stand""] execVM ""Scripts\Ambiant\ShoterAnimation\ShoterAnimation.sqf"";";
 				};
 			};
 		};
@@ -518,7 +518,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.99748379;
-					init="nic = [this, ""talk""] execVM ""ShoterAnimation\ShoterAnimation.sqf"";";
+					init="nic = [this, ""talk""] execVM ""Scripts\Ambiant\ShoterAnimation\ShoterAnimation.sqf"";";
 				};
 			};
 		};
