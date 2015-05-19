@@ -11,24 +11,24 @@
         <Original>ArmADeus Team</Original>
         <English>ArmADeus Team</English>
         <French>Clan ArmADeus</French>
-        <German></German>
-        <Russian></Russian>
+        <German>ArmADeus Team</German>
+        <Russian>Компаня АрмАДеус</Russian>
     </Key>
 
  	<Key ID="STR_AD_mp_mission_01_missionname">
         <Original>Regulars Patrols</Original>
         <English>Regulars Patrols</English>
         <French>Patrouilles habituelles</French>
-        <German></German>
-        <Russian></Russian>
+        <German>Рegelmäßige Patrouillen</German>
+        <Russian>Регулярные патрули</Russian>
     </Key>
 
  	<Key ID="STR_AD_mp_mission_01_overview">
         <Original>Test Current EN Desc.</Original>
         <English>Test Current EN Desc.</English>
         <French>Test Current FR Desc.</French>
-        <German></German>
-        <Russian></Russian>
+        <German>Test Current DE Desc.</German>
+        <Russian>проверить текущее описание</Russian>
     </Key>
 	</Container>
 </Package>
