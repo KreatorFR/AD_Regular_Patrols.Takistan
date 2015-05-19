@@ -1,0 +1,49 @@
+dev = "Anthariel, Kreator";
+author = $STR_A3_Bohemia_Interactive;
+onLoadName = $STR_A3_mp_marksmen_01_missionname;
+briefingName = $STR_A3_mp_marksmen_01_missionname;
+onLoadMission = $STR_A3_mp_marksmen_01_overview;
+overviewText = $STR_A3_mp_marksmen_01_overview;
+overviewPicture = "\a3\Missions_F_MP_Mark\Data\Marksmen_scenario01_overview_CA.paa";
+respawn = 3;
+respawnDelay = 30;
+respawnVehicleDelay = 0;
+respawnTemplates[] = {"Revive", "MenuPosition"/*, "MenuInventory"*/};
+respawnOnStart = -1;
+respawnDialog = 1;
+disabledAI = 1;
+
+class Header
+{
+	gameType = CTF;
+	minPlayers = 1;
+	maxPlayers = 16;
+};
+
+class Params
+{
+	#define DAYTIMEHOUR_DEFAULT			12
+	#define WEATHER_DEFAULT				25
+	#define DEBUGCONSOLE_DEFAULT		0
+	#define TIMEACCELERATION_DEFAULT	10
+
+	#include "\a3\functions_f\Params\paramDaytimeHour.hpp"
+	#include "\a3\functions_f\Params\paramWeather.hpp"
+	#include "\a3\functions_f\Params\paramDebugConsole.hpp"
+	#include "\a3\Functions_F_MP_Mark\Params\paramTimeAcceleration.hpp"
+};
+
+taskManagement_markers2D = 1;			//0: do not use new 2D markers (default), 1: replace task markers with new 2D markers
+taskManagement_markers3D = 1;			//0: do not use new 3D markers (default), 1: replace task waypoints with new 3D markers
+taskManagement_propagate = 1;			//0: do not propagate (default), 1: propagate shared tasks to subordinates
+taskManagement_drawDist  = 2500;		//3d marker draw distance (default: 2000)
+
+corpseManagerMode = 1; 					// Type of removed bodies: 0 - none, 1 - all, 2 - only respawnable, 3 - only non-respawnable
+corpseLimit = 10; 						// Max number of bodies which can be available at the same time. When exceeded, start deleting immediately.
+corpseRemovalMinTime = 120; 			// Minimal time in seconds a body stays in the scene (can't be removed sooner).
+corpseRemovalMaxTime = 240; 			// Maximal time in seconds after which a dead body is removed (can't stay longer)
+
+wreckManagerMode = 1; 					// Type of removed wrecks: 0 - none, 1 - all, 2 - only respawnable, 3 - only non-respawnable
+wreckLimit = 5; 						// Max number of wrecks which can be available at the same time. When exceeded, start deleting immediately.
+wreckRemovalMinTime = 120; 				// Minimal time in seconds a wreck stays in the scene (can't be removed sooner).
+wreckRemovalMaxTime = 240; 				// Maximal time in seconds after which a wreck is removed (can't stay longer)
