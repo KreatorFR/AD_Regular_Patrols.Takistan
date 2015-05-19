@@ -5,7 +5,7 @@
     FILE REF.            : #ADMF01
     FILE STRING.         : Stringtable OK
 
-    FILE ORIGINAL AUTHOR : ARMADEUS
+    FILE ORIGINAL AUTHOR : ANTHARIEL
 */
 
 dev = "Anthariel, Kreator";
@@ -14,7 +14,8 @@ onLoadName = $STR_AD_mp_mission_01_missionname;
 briefingName = $STR_AD_mp_mission_01_missionname;
 onLoadMission = $STR_AD_mp_mission_01_overview;
 overviewText = $STR_AD_mp_mission_01_overview;
-overviewPicture = "\a3\Missions_F_MP_Mark\Data\Marksmen_scenario01_overview_CA.paa"; //Todo
+overviewPicture = "\Data\img\preview.jpg";
+loadScreen = "\Data\img\loadscreen.jpg";
 respawn = 3;
 respawnDelay = 30;
 respawnVehicleDelay = 0;
