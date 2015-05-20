@@ -1123,7 +1123,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=151;
+		items=152;
 		class Item0
 		{
 			position[]={5640.9126,83.050003,11107.687};
@@ -1879,9 +1879,10 @@ class Mission
 			azimut=45;
 			id=124;
 			side="EMPTY";
-			vehicle="Flag_NATO_F";
+			vehicle="Flag_White_F";
 			leader=1;
 			skill=0.60000002;
+			init="this setFlagTexture ""Data\img\flag.paa"";";
 		};
 		class Item75
 		{
@@ -2636,6 +2637,17 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 		};
+		class Item151
+		{
+			position[]={5859.1006,82.340614,11202.473};
+			azimut=144.24336;
+			special="NONE";
+			id=201;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""Data\img\image_welcome.jpg""]; ";
+		};
 	};
 	class Markers
 	{
@@ -2686,7 +2698,7 @@ class Mission
 		class Item6
 		{
 			position[]={5781.1001,83.040001,11363.638};
-			name="zone blufor";
+			name="NATO AREA";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorWEST";
@@ -2698,7 +2710,7 @@ class Mission
 		};
 		class Item7
 		{
-			position[]={5573.8159,89.813637,10895.059};
+			position[]={5646.4741,81.81369,10963.104};
 			name="respawn_west_1";
 			type="Empty";
 			angle=3.5649722;
