@@ -10,3 +10,14 @@
 
 
 hint (localize "STR_AD_resume");
+
+//Intro NOIR
+cutText ["","BLACK FADED"];
+sleep 2;
+
+//INFOS OPE, DATE, LOCALISATION
+[str ("Takistan"), str("Foreign Operations")] spawn BIS_fnc_infoText;
+sleep 4;
+
+//Fin du NOIR
+cutText ["","BLACK IN"];
