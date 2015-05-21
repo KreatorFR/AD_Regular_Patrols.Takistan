@@ -64,7 +64,6 @@ class Mission
 		"A3_Modules_F_Multiplayer",
 		"A3_Modules_F_Intel",
 		"A3_Characters_F_EPC",
-		"A3_Characters_F_Civil",
 		"A3_Air_F_Beta_Heli_Transport_01",
 		"A3_Air_F_Heli_Heli_Transport_03",
 		"A3_Soft_F_MRAP_01",
@@ -1124,18 +1123,16 @@ class Mission
 		};
 		class Item34
 		{
-			side="CIV";
+			side="WEST";
 			class Vehicles
 			{
 				items=1;
 				class Item0
 				{
-					position[]={5834.4019,82.835281,11221.271};
-					azimut=138;
-					special="NONE";
+					position[]={5837.998,82.819283,11220.63};
 					id=50;
-					side="CIV";
-					vehicle="C_man_polo_1_F_asia";
+					side="WEST";
+					vehicle="B_soldier_AAR_F";
 					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
@@ -2752,14 +2749,13 @@ class Mission
 		{
 			position[]={5781.1001,83.040001,11363.638};
 			name="NATO AREA";
+			text="NATO AREA / SAFE ZONE";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorWEST";
-			fillName="Border";
 			a=300;
 			b=650;
 			angle=41.851898;
-			drawBorder=1;
 		};
 		class Item7
 		{
@@ -2844,6 +2840,42 @@ class Mission
 			colorName="ColorRed";
 			a=5;
 			b=5;
+		};
+	};
+	class Sensors
+	{
+		items=2;
+		class Item0
+		{
+			position[]={5762.8145,83.040001,11384.388};
+			a=300;
+			b=650;
+			angle=41.851898;
+			rectangular=1;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="player in thislist";
+			expActiv="player allowDamage false;";
+			expDesactiv="hint ""vous quittez la safe-zone""; player allowDamage true;";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={5842.4658,82.659142,11213.223};
+			a=2;
+			b=2;
+			activationBy="WEST";
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="player in thislist";
+			class Effects
+			{
+				track="EventTrack01_F_Curator";
+			};
 		};
 	};
 };
