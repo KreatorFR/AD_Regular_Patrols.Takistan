@@ -1130,7 +1130,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5833.3887,82.570724,11208.232};
+					position[]={5834.4019,82.835281,11221.271};
 					azimut=138;
 					special="NONE";
 					id=50;
@@ -1904,7 +1904,7 @@ class Mission
 			vehicle="Flag_White_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setFlagTexture ""Data\img\flag.paa"";";
+			init="this setFlagTexture ""Data\img\flag.paa""; this addAction[""<t color='#ff9900'>HALO jump</t>"", ""Scripts\Ambiant\ATM_airdrop\atm_airdrop.sqf""];";
 		};
 		class Item75
 		{
