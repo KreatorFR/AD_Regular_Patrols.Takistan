@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="ArmADeus : Regular Patrols">
+<Author name="ArmADeus">
+<Project version="0.5 Beta Public Release">
+
+
+<Package name="AD | Regular Patrols"> 
+ 	<Container name="Mission Informations">
+
+ 	<Key ID="STR_AD_Author_Name">
+        <Original>ArmADeus Team</Original>
+        <English>ArmADeus Team</English>
+        <French>Clan ArmADeus</French>
+        <German>ArmADeus Team</German>
+        <Russian>Компаня АрмАДеус</Russian>
+    </Key>
+
+ 	<Key ID="STR_AD_mp_mission_01_missionname">
+        <Original>Foreign Operations</Original>
+        <English>Foreign Operations</English>
+        <French>Opérations extérieures</French>
+        <German>Auslandsgeschäft</German>
+        <Russian>Инностраные Операции</Russian>
+    </Key>
+
+ 	<Key ID="STR_AD_mp_mission_01_overview">
+        <Original>Foreign Operations - Takistan - 32 Slots</Original>
+        <English>Foreign Operations - Takistan - 32 Slots</English>
+        <French>Opérations extérieures - Takistan - 32 Slots</French>
+        <German>Auslandsgeschäft - Takistan - 32 Slots</German>
+        <Russian>Инностраные Операции - Такистан - 32 Слотс</Russian>
+    </Key>
+
+
+    <Key ID="STR_AD_resume">
+      <Original>
+        La force internationale Arès, tout juste démobilisée d'Altis, est envoyée au moyen-orient, dans la province de Takistan où les position de l'état islamique se sont renforcées.Une fois déployés sur zone, vous serez amenés à conduire nombre de missions diverses et variées afin de pacifier la région. N'oubliez pas que vous êtes en terrain hostile, méfiez vous de tout...
+      </Original>
+      <English>
+        The international task force ARES, just demobilized from Altis, is sent to the middle-east, in the Takistan province where the ISIS position have grown.As soon as you'll be deployed, you'll have to face a large amount of various missions in order to pacify the region. Do not forget that you are in an hostile area, be aware constantly...
+      </English>
+      <French>
+        La force internationale Arès, tout juste démobilisée d'Altis, est envoyée au moyen-orient, dans la province de Takistan où les position de l'état islamique se sont renforcées.Une fois déployés sur zone, vous serez amenés à conduire nombre de missions diverses et variées afin de pacifier la région. N'oubliez pas que vous êtes en terrain hostile, méfiez vous de tout...
+      </French>
+      <German>
+        Die internationale Truppe Ares, nur demobilisiert von Altis, wird in den Nahen Osten geschickt, in der Provinz von Takistan, wo die Position des Islamischen Staates gestärkt. Einmal in der Zone bereitgestellt wird, werden Sie aufgefordert, verschiedene und abwechslungsreiche Reihe von Missionen zu fahren, um die Region zu befrieden werden. Denken Sie daran, dass Sie in feindliche Gelände sind, passen sie von allem ...
+      </German>
+      <Russian>
+        Международные Арес сила, только демобилизованные Альтис, отправляется на Ближний Восток, в провинции, где Такистан были укреплены позиции исламского государства. После развертывания в зоне, вы будете обязаны вести различные и разнообразный ряд миссий, чтобы успокоить регион. Помните, что вы находитесь в враждебной местности, остерегайтесь все ...
+      </Russian>
+    </Key>
+	</Container>
+
+<Container name="ATMDrop">
+      <Key ID="STR_ATM_Alt">
+        <Original>Altitude:</Original>
+        <French>Altitude:</French>
+      </Key>
+      <Key ID="STR_ATM_Keys">
+        <Original>Select Key:</Original>
+        <French>Choisir Une touche:</French>
+      </Key>
+      <Key ID="STR_ATM_Main">
+        <Original>Choose your Altitude and Cut Key</Original>
+        <French>Choisir votre altitude et une touche</French>
+        <Key>
+          <Key ID="STR_ATM_hover">
+            <Original>Your select Altitude</Original>
+            <French>Votre Altitude choisi</French>
+          </Key>
+          <Key ID="STR_ATM_hinton">
+            <Original>Select Altitude and Designate LZ for HALO Jump on the map</Original>
+            <French>Sélectionner votre Altitude et désigner une LZ sur la carte</French>
+          </Key>
+          <Key ID="STR_ATM_hintjump">
+            <Original>PRESS KEY TO CUT-AWAY ROPES</Original>
+            <French>Appuyer sur votre touche pour couper les suspentes</French>
+          </Key>
+          <Key ID="STR_ATM_hintload">
+            <Original>loading loadout ...</Original>
+            <French>Chargement de votre équipement ...</French>
+          </Key>
+          <Key ID="STR_ATM_Close">
+            <Original>Close</Original>
+            <French>Fermer</French>
+          </Key>
+  </Container>
+
+
+
+    <Container name="Soldiers Names"> <!--- In the lobby--->
+
+    <Key ID="STR_AD_mp_mission_01_Soldiers_TL_Name">
+        <Original>Team Leader</Original>
+        <English>Team Leader</English>
+        <French>Chef d'Équipe</French>
+        <German>Führer</German>
+        <Russian>десятник</Russian>
+    </Key>
+
+    <Key ID="STR_AD_mp_mission_01_Soldiers_SL_Name">
+        <Original>Squad Leader</Original>
+        <English>Squad Leader</English>
+        <French>Chef d'Escouade</French>
+        <German>Einsatzleiter</German>
+        <Russian>лидером команды</Russian>
+    </Key>
+
+    <Key ID="STR_AD_mp_mission_01_Soldiers_HMG_Name">
+        <Original>Heavy Machine Gunner</Original>
+        <English>Heavy Machine Gunner</English>
+        <French>Mitrailleur Lourd</French>
+        <German>Heavy Machine Gunner</German>
+        <Russian>Тяжелая стрелок</Russian>
+    </Key>
+
+    <Key ID="STR_AD_mp_mission_01_Soldiers_GL_Name">
+        <Original>Grenadier</Original>
+        <English>Grenadier</English>
+        <French>Grenadier</French>
+        <German>Grenadier</German>
+        <Russian>гренадер</Russian>
+    </Key>
+
+    <Key ID="STR_AD_mp_mission_01_Soldiers_MEDIC_Name">
+        <Original>Medic</Original>
+        <English>Medic</English>
+        <French>Médecin</French>
+        <German>Artz</German>
+        <Russian>доктор</Russian>
+    </Key>
+
+    <Key ID="STR_AD_mp_mission_01_Soldiers_MARK_Name">
+        <Original>Marksman</Original>
+        <English>Marksman</English>
+        <French>Tireur d'Élite</French>
+        <German>Scharfschütze</German>
+        <Russian>Снайпер</Russian>
+    </Key>
+
+    <Key ID="STR_AD_mp_mission_01_Soldiers_I_Name">
+        <Original>Infantry</Original>
+        <English>Infantry</English>
+        <French>Infanterie</French>
+        <German>Infanterie</German>
+        <Russian>пехота</Russian>
+    </Key>
+    </Container>
+</Package>
